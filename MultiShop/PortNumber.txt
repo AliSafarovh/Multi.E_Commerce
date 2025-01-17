@@ -1,0 +1,8 @@
+Identity -- 5001
+Discount -- 7010
+Catalog  -- 7020
+Order    -- 7030
+Basket   -- 7040
+Cargo    -- 7050
+
+
