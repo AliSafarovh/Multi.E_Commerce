@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RcFK1aVryDI=",
+  "dgSpecHash": "NQbM8XUCaw0=",
   "success": true,
   "projectFilePath": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj",
   "expectedPackageFiles": [
@@ -111,106 +111,5 @@
     "C:\\Users\\samun\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\samun\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'Azure.Identity' 1.10.3 paketinde önem derecesi orta olan bilinen bir https://github.com/advisories/GHSA-m5vv-6r4h-3vj9 güvenlik açığı var",
-      "libraryId": "Azure.Identity",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'Azure.Identity' 1.10.3 paketinde önem derecesi orta olan bilinen bir https://github.com/advisories/GHSA-wvxc-855f-jvrv güvenlik açığı var",
-      "libraryId": "Azure.Identity",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'Duende.IdentityServer' 7.0.4 paketinde önem derecesi orta olan bilinen bir https://github.com/advisories/GHSA-ff4q-64jc-gx98 güvenlik açığı var",
-      "libraryId": "Duende.IdentityServer",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'Duende.IdentityServer' 7.0.4 paketinde önem derecesi düşük olan bilinen bir https://github.com/advisories/GHSA-v9xq-2mvm-x8xc güvenlik açığı var",
-      "libraryId": "Duende.IdentityServer",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'Microsoft.Extensions.Caching.Memory' 8.0.0 paketinde önem derecesi yüksek olan bilinen bir https://github.com/advisories/GHSA-qj66-m88j-hmgj güvenlik açığı var",
-      "libraryId": "Microsoft.Extensions.Caching.Memory",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'Microsoft.Identity.Client' 4.56.0 paketinde önem derecesi orta olan bilinen bir https://github.com/advisories/GHSA-m5vv-6r4h-3vj9 güvenlik açığı var",
-      "libraryId": "Microsoft.Identity.Client",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'Microsoft.Identity.Client' 4.56.0 paketinde önem derecesi düşük olan bilinen bir https://github.com/advisories/GHSA-x674-v45j-fwxw güvenlik açığı var",
-      "libraryId": "Microsoft.Identity.Client",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'System.Formats.Asn1' 5.0.0 paketinde önem derecesi yüksek olan bilinen bir https://github.com/advisories/GHSA-447r-wph3-92pm güvenlik açığı var",
-      "libraryId": "System.Formats.Asn1",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'System.Text.Json' 8.0.0 paketinde önem derecesi yüksek olan bilinen bir https://github.com/advisories/GHSA-8g4q-xg66-9fp4 güvenlik açığı var",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'System.Text.Json' 8.0.0 paketinde önem derecesi yüksek olan bilinen bir https://github.com/advisories/GHSA-hh2w-p6rv-4g7w güvenlik açığı var",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

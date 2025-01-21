@@ -24,38 +24,38 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 09 Jan 2025 12:29:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MultiShop.WebUI/images/logo/manlogo.bwihvb6bin.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo\manlogo.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MultiShop.WebUI/images/logos/manlogo.bwihvb6bin.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logos\manlogo.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bwihvb6bin"},{"Name":"integrity","Value":"sha256-FdueFI4rryzRS/yhSUUn6syatsrvh4EVLW6//5cDvVg="},{"Name":"label","Value":"_content/MultiShop.WebUI/images/logo/manlogo.jpg"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bwihvb6bin"},{"Name":"integrity","Value":"sha256-FdueFI4rryzRS/yhSUUn6syatsrvh4EVLW6//5cDvVg="},{"Name":"label","Value":"_content/MultiShop.WebUI/images/logos/manlogo.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62623"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FdueFI4rryzRS/yhSUUn6syatsrvh4EVLW6//5cDvVg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 09 Jan 2025 07:32:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MultiShop.WebUI/images/logo/manlogo.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo\manlogo.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MultiShop.WebUI/images/logos/manlogo.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logos\manlogo.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FdueFI4rryzRS/yhSUUn6syatsrvh4EVLW6//5cDvVg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62623"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FdueFI4rryzRS/yhSUUn6syatsrvh4EVLW6//5cDvVg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 09 Jan 2025 07:32:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MultiShop.WebUI/images/logo/mulhtishop1.0afxj6jri7.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo\mulhtishop1.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MultiShop.WebUI/images/logos/mulhtishop1.0afxj6jri7.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logos\mulhtishop1.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0afxj6jri7"},{"Name":"integrity","Value":"sha256-mIbrKtt0uFR/mMBN\u002B3LcswIY2rwCli/JyjH02aNJIJk="},{"Name":"label","Value":"_content/MultiShop.WebUI/images/logo/mulhtishop1.jpg"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0afxj6jri7"},{"Name":"integrity","Value":"sha256-mIbrKtt0uFR/mMBN\u002B3LcswIY2rwCli/JyjH02aNJIJk="},{"Name":"label","Value":"_content/MultiShop.WebUI/images/logos/mulhtishop1.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"147401"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mIbrKtt0uFR/mMBN\u002B3LcswIY2rwCli/JyjH02aNJIJk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 09 Jan 2025 07:32:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MultiShop.WebUI/images/logo/mulhtishop1.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo\mulhtishop1.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MultiShop.WebUI/images/logos/mulhtishop1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logos\mulhtishop1.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mIbrKtt0uFR/mMBN\u002B3LcswIY2rwCli/JyjH02aNJIJk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"147401"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mIbrKtt0uFR/mMBN\u002B3LcswIY2rwCli/JyjH02aNJIJk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 09 Jan 2025 07:32:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MultiShop.WebUI/images/logo/MULTISHOPPNG.5js79mparu.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo\MULTISHOPPNG.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MultiShop.WebUI/images/logos/MULTISHOPPNG.5js79mparu.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logos\MULTISHOPPNG.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5js79mparu"},{"Name":"integrity","Value":"sha256-z6LfgXMu/HSlvR49ziKLBlcCNuZyD/R3fq6G3g2DLfw="},{"Name":"label","Value":"_content/MultiShop.WebUI/images/logo/MULTISHOPPNG.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5js79mparu"},{"Name":"integrity","Value":"sha256-z6LfgXMu/HSlvR49ziKLBlcCNuZyD/R3fq6G3g2DLfw="},{"Name":"label","Value":"_content/MultiShop.WebUI/images/logos/MULTISHOPPNG.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"71322"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022z6LfgXMu/HSlvR49ziKLBlcCNuZyD/R3fq6G3g2DLfw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 09 Jan 2025 07:32:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MultiShop.WebUI/images/logo/MULTISHOPPNG.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo\MULTISHOPPNG.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MultiShop.WebUI/images/logos/MULTISHOPPNG.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logos\MULTISHOPPNG.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-z6LfgXMu/HSlvR49ziKLBlcCNuZyD/R3fq6G3g2DLfw="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"71322"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022z6LfgXMu/HSlvR49ziKLBlcCNuZyD/R3fq6G3g2DLfw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 09 Jan 2025 07:32:44 GMT"}]]]></ResponseHeaders>

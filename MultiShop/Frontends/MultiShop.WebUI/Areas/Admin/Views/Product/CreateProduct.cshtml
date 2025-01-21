@@ -1,0 +1,40 @@
+﻿@model CreateProductDto
+@{
+    ViewData["Title"] = "CreateProduct";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="chart-box">
+                <h4>Məhsul Əlavə Etmə Səhifəsi</h4>
+                <br />
+                <div class="bs-example" data-example-id="bordered-table">
+                    <form method="post">
+                        <label>Məhsul Adı</label>
+                        <input type="type" class="form-control" asp-for="ProductName" />
+                        <br />
+                        <label>Məhsul Qiyməti</label>
+                        <input type="type" class="form-control" asp-for="ProductPrice" />
+                        <br />
+                        <label>Məhsul Şəkli</label>
+                        <input type="type" class="form-control" asp-for="ProductImageUrl" />
+                        <br />
+                        <label>Məhsul Kateqoriyası</label>
+                        @* İstifadəçi siyahıdan bir kateqoriya seçdikdə, seçilmiş dəyər avtomatik olaraq CategoryId-yə yazılır. *@
+
+                        @Html.DropDownListFor(x => x.CategoryId, (List<SelectListItem>)ViewBag.CategoryValues,
+                                 new { @class = "form-control" })
+                        <br />
+                        <label>Məhsul Haqqında</label>
+                        <textarea class="form-control" asp-for="ProductDescription" rows="5"></textarea>
+                        <br />
+                        <button class="btn btn-primary">Məhsul Əlavə Et</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

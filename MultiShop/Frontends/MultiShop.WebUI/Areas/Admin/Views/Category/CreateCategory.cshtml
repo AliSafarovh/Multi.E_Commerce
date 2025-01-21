@@ -1,0 +1,28 @@
+﻿@model CreateCategoryDto
+@{
+    ViewData["Title"] = "CreateCategory";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="chart-box">
+                <h4>Kateqoriya Əlavə Etmə Səhifəsi</h4>
+                <br />
+                <div class="bs-example" data-example-id="bordered-table">
+                    <form method="post">
+                        <label>Kateqoriya Adı</label>
+                        <input type="type" class="form-control" asp-for="CategoryName" />
+                        <br />
+                        <label>Kateqoriya Şəkli</label>
+                        <input type="type" class="form-control" asp-for="ImageUrl" />
+                        <br />
+                        <button class="btn btn-primary">Kateqoriya Əlavə Et</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

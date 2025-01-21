@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "gAR74/hNDzIYyCWQtI1Q+6G2XNnSQ0OaXcghEv+9dog=",
+  "Hash": "W47+LITYLuGNP/HCRvkLj/iV18GADvKHM0dqU3GVgWY=",
   "Source": "MultiShop.WebUI",
   "BasePath": "_content/MultiShop.WebUI",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj",
+      "Version": 2,
+      "Source": "MultiShop.Catalog",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "MultiShop.WebUI\\wwwroot",
@@ -101,12 +113,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logo\\manlogo.jpg",
+      "Identity": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logos\\manlogo.jpg",
       "SourceId": "MultiShop.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\",
       "BasePath": "_content/MultiShop.WebUI",
-      "RelativePath": "images/logo/manlogo#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/logos/manlogo#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -119,15 +131,15 @@
       "Integrity": "FdueFI4rryzRS/yhSUUn6syatsrvh4EVLW6//5cDvVg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo\\manlogo.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\logos\\manlogo.jpg"
     },
     {
-      "Identity": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logo\\mulhtishop1.jpg",
+      "Identity": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logos\\mulhtishop1.jpg",
       "SourceId": "MultiShop.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\",
       "BasePath": "_content/MultiShop.WebUI",
-      "RelativePath": "images/logo/mulhtishop1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/logos/mulhtishop1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -140,15 +152,15 @@
       "Integrity": "mIbrKtt0uFR/mMBN+3LcswIY2rwCli/JyjH02aNJIJk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo\\mulhtishop1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\logos\\mulhtishop1.jpg"
     },
     {
-      "Identity": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logo\\MULTISHOPPNG.png",
+      "Identity": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logos\\MULTISHOPPNG.png",
       "SourceId": "MultiShop.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\",
       "BasePath": "_content/MultiShop.WebUI",
-      "RelativePath": "images/logo/MULTISHOPPNG#[.{fingerprint}]?.png",
+      "RelativePath": "images/logos/MULTISHOPPNG#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -161,7 +173,7 @@
       "Integrity": "z6LfgXMu/HSlvR49ziKLBlcCNuZyD/R3fq6G3g2DLfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo\\MULTISHOPPNG.png"
+      "OriginalItemSpec": "wwwroot\\images\\logos\\MULTISHOPPNG.png"
     },
     {
       "Identity": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\js\\site.js",
@@ -10683,8 +10695,8 @@
       ]
     },
     {
-      "Route": "images/logo/manlogo.bwihvb6bin.jpg",
-      "AssetFile": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logo\\manlogo.jpg",
+      "Route": "images/logos/manlogo.bwihvb6bin.jpg",
+      "AssetFile": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logos\\manlogo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10719,7 +10731,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/logo/manlogo.jpg"
+          "Value": "images/logos/manlogo.jpg"
         },
         {
           "Name": "integrity",
@@ -10728,8 +10740,8 @@
       ]
     },
     {
-      "Route": "images/logo/manlogo.jpg",
-      "AssetFile": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logo\\manlogo.jpg",
+      "Route": "images/logos/manlogo.jpg",
+      "AssetFile": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logos\\manlogo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10765,8 +10777,8 @@
       ]
     },
     {
-      "Route": "images/logo/mulhtishop1.0afxj6jri7.jpg",
-      "AssetFile": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logo\\mulhtishop1.jpg",
+      "Route": "images/logos/mulhtishop1.0afxj6jri7.jpg",
+      "AssetFile": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logos\\mulhtishop1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10801,7 +10813,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/logo/mulhtishop1.jpg"
+          "Value": "images/logos/mulhtishop1.jpg"
         },
         {
           "Name": "integrity",
@@ -10810,8 +10822,8 @@
       ]
     },
     {
-      "Route": "images/logo/mulhtishop1.jpg",
-      "AssetFile": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logo\\mulhtishop1.jpg",
+      "Route": "images/logos/mulhtishop1.jpg",
+      "AssetFile": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logos\\mulhtishop1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10847,8 +10859,8 @@
       ]
     },
     {
-      "Route": "images/logo/MULTISHOPPNG.5js79mparu.png",
-      "AssetFile": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logo\\MULTISHOPPNG.png",
+      "Route": "images/logos/MULTISHOPPNG.5js79mparu.png",
+      "AssetFile": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logos\\MULTISHOPPNG.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10883,7 +10895,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/logo/MULTISHOPPNG.png"
+          "Value": "images/logos/MULTISHOPPNG.png"
         },
         {
           "Name": "integrity",
@@ -10892,8 +10904,8 @@
       ]
     },
     {
-      "Route": "images/logo/MULTISHOPPNG.png",
-      "AssetFile": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logo\\MULTISHOPPNG.png",
+      "Route": "images/logos/MULTISHOPPNG.png",
+      "AssetFile": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\images\\logos\\MULTISHOPPNG.png",
       "Selectors": [],
       "ResponseHeaders": [
         {

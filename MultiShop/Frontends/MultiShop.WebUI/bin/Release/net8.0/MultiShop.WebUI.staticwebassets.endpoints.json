@@ -23291,8 +23291,8 @@
       ]
     },
     {
-      "Route": "images/logo/MULTISHOPPNG.5js79mparu.png",
-      "AssetFile": "images/logo/MULTISHOPPNG.png",
+      "Route": "images/logos/MULTISHOPPNG.5js79mparu.png",
+      "AssetFile": "images/logos/MULTISHOPPNG.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23331,13 +23331,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/logo/MULTISHOPPNG.png"
+          "Value": "images/logos/MULTISHOPPNG.png"
         }
       ]
     },
     {
-      "Route": "images/logo/MULTISHOPPNG.png",
-      "AssetFile": "images/logo/MULTISHOPPNG.png",
+      "Route": "images/logos/MULTISHOPPNG.png",
+      "AssetFile": "images/logos/MULTISHOPPNG.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23373,8 +23373,8 @@
       ]
     },
     {
-      "Route": "images/logo/manlogo.bwihvb6bin.jpg",
-      "AssetFile": "images/logo/manlogo.jpg",
+      "Route": "images/logos/manlogo.bwihvb6bin.jpg",
+      "AssetFile": "images/logos/manlogo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23413,13 +23413,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/logo/manlogo.jpg"
+          "Value": "images/logos/manlogo.jpg"
         }
       ]
     },
     {
-      "Route": "images/logo/manlogo.jpg",
-      "AssetFile": "images/logo/manlogo.jpg",
+      "Route": "images/logos/manlogo.jpg",
+      "AssetFile": "images/logos/manlogo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23455,8 +23455,8 @@
       ]
     },
     {
-      "Route": "images/logo/mulhtishop1.0afxj6jri7.jpg",
-      "AssetFile": "images/logo/mulhtishop1.jpg",
+      "Route": "images/logos/mulhtishop1.0afxj6jri7.jpg",
+      "AssetFile": "images/logos/mulhtishop1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23495,13 +23495,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/logo/mulhtishop1.jpg"
+          "Value": "images/logos/mulhtishop1.jpg"
         }
       ]
     },
     {
-      "Route": "images/logo/mulhtishop1.jpg",
-      "AssetFile": "images/logo/mulhtishop1.jpg",
+      "Route": "images/logos/mulhtishop1.jpg",
+      "AssetFile": "images/logos/mulhtishop1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {

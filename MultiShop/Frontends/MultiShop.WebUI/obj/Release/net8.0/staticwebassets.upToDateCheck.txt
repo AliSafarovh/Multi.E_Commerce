@@ -1,8 +1,8 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\images\logo\manlogo.jpg
-wwwroot\images\logo\mulhtishop1.jpg
-wwwroot\images\logo\MULTISHOPPNG.png
+wwwroot\images\logos\manlogo.jpg
+wwwroot\images\logos\mulhtishop1.jpg
+wwwroot\images\logos\MULTISHOPPNG.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
