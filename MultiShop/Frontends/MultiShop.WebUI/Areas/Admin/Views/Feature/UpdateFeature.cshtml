@@ -1,0 +1,29 @@
+﻿@model UpdateFeatureDto
+@{
+    ViewData["Title"] = "UpdateFeature";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="chart-box">
+                <h4>Önə Çıxan Sahə Güncəlləmə Səhifəsi</h4>
+                <br />
+                <div class="bs-example" data-example-id="bordered-table">
+                    <form method="post">
+                        <input type="hidden" asp-for="FeatureId" />
+                        <label>Önə Çıxan Sahə Adı</label>
+                        <input type="type" class="form-control" asp-for="Title" />
+                        <br />
+                        <label>Önə Çıxan Sahə İkonu</label>
+                        <input type="type" class="form-control" asp-for="Icon" />
+                        <br />
+                        <button class="btn btn-primary">Güncəllə</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
