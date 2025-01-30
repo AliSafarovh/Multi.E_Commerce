@@ -1,24 +1,19 @@
-﻿<div class="container-fluid pt-5 pb-3">
+﻿@model List<ResultOfferDiscountDto>
+
+<div class="container-fluid pt-5 pb-3">
     <div class="row px-xl-5">
-        <div class="col-md-6">
-            <div class="product-offer mb-30" style="height: 300px;">
-                <img class="img-fluid" src="https://images.squarespace-cdn.com/content/v1/63dde481bbabc6724d988548/21979282-af52-440d-aed7-40925352320e/_f16c092a-5f51-42e9-8056-bd231886f051.jpeg?format=1500w" alt="">
-                <div class="offer-text">
-                    <h6 class="text-white text-uppercase">Endirim 20%</h6>
-                    <h3 class="text-white mb-3">Xüsusi Endirimli Məhsullar</h3>
-                    <a href="" class="btn btn-primary">İndi Al</a>
+        @foreach (var item in Model)
+        {
+            <div class="col-md-6">
+                <div class="product-offer mb-30" style="height: 300px;">
+                    <img class="img-fluid" src="@item.ImageUrl" alt="">
+                    <div class="offer-text">
+                        <h6 class="text-white text-uppercase">@item.Title</h6>
+                        <h3 class="text-white mb-3">@item.SubTitle</h3>
+                        <a href="" class="btn btn-primary">@item.ButtonTitle</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-6">
-            <div class="product-offer mb-30" style="height: 300px;">
-                <img class="img-fluid" src="https://www.orientbell.com/blog/wp-content/uploads/2024/09/850x1050-Pix-5.jpg" alt="">
-                <div class="offer-text">
-                    <h6 class="text-white text-uppercase">Endirim 20%</h6>
-                    <h3 class="text-white mb-3">Xüsusi Məhsullar'</h3>
-                    <a href="" class="btn btn-primary">İndi al</a>
-                </div>
-            </div>
-        </div>
+        }
     </div>
 </div>

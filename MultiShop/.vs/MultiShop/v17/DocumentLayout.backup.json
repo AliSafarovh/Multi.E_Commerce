@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\frontends\\multishop.webui\\views\\shared\\components\\_featureproductsdefaultcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\shared\\components\\_featureproductsdefaultcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\frontends\\multishop.webui\\views\\shared\\components\\_productdetailinformationcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\shared\\components\\_productdetailinformationcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\frontends\\multishop.webui\\viewcomponents\\defaultviewcomponents\\_featureproductsdefaultcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\viewcomponents\\defaultviewcomponents\\_featureproductsdefaultcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\frontends\\multishop.webui\\viewcomponents\\productdetailviewcomponents\\_productdetailinformationcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\viewcomponents\\productdetailviewcomponents\\_productdetailinformationcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\frontends\\multishop.webui\\viewcomponents\\productdetailviewcomponents\\_productdetaildescriptioncomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\viewcomponents\\productdetailviewcomponents\\_productdetaildescriptioncomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\frontends\\multishop.webui\\views\\productlist\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\productlist\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\frontends\\multishop.webui\\areas\\admin\\controllers\\productdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\areas\\admin\\controllers\\productdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\frontends\\multishop.webui\\views\\shared\\components\\_productdetaildescriptioncomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\shared\\components\\_productdetaildescriptioncomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\frontends\\multishop.webui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -22,45 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-23T13:00:39.381Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_FeatureProductsDefaultComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_FeatureProductsDefaultComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_FeatureProductsDefaultComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_FeatureProductsDefaultComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAeAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_ProductDetailInformationComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_ProductDetailInformationComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_ProductDetailInformationComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_ProductDetailInformationComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-23T12:57:38.519Z",
+              "WhenOpened": "2025-01-30T13:16:39.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_FeatureProductsDefaultComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_FeatureProductsDefaultComponentPartial.cs",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_FeatureProductsDefaultComponentPartial.cs",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_FeatureProductsDefaultComponentPartial.cs",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_FeatureProductsDefaultComponentPartial.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBwAAAAAAAAAAAAAAA==",
+              "Title": "_ProductDetailInformationComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\ProductDetailViewComponents\\_ProductDetailInformationComponentPartial.cs",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\ViewComponents\\ProductDetailViewComponents\\_ProductDetailInformationComponentPartial.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\ProductDetailViewComponents\\_ProductDetailInformationComponentPartial.cs",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\ViewComponents\\ProductDetailViewComponents\\_ProductDetailInformationComponentPartial.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T12:57:04.616Z",
+              "WhenOpened": "2025-01-30T13:15:15.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Areas\\Admin\\Controllers\\ProductDetailController.cs",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Areas\\Admin\\Controllers\\ProductDetailController.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Areas\\Admin\\Controllers\\ProductDetailController.cs",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Areas\\Admin\\Controllers\\ProductDetailController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T13:07:14.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_ProductDetailDescriptionComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_ProductDetailDescriptionComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_ProductDetailDescriptionComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_ProductDetailDescriptionComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T12:59:47.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ProductDetailDescriptionComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\ProductDetailViewComponents\\_ProductDetailDescriptionComponentPartial.cs",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\ViewComponents\\ProductDetailViewComponents\\_ProductDetailDescriptionComponentPartial.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\ProductDetailViewComponents\\_ProductDetailDescriptionComponentPartial.cs",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\ViewComponents\\ProductDetailViewComponents\\_ProductDetailDescriptionComponentPartial.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:54:14.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\ProductList\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\ProductList\\ProductDetail.cshtml",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\ProductList\\ProductDetail.cshtml",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\ProductList\\ProductDetail.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T12:52:19.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T12:51:45.994Z",
               "EditorCaption": ""
             }
           ]

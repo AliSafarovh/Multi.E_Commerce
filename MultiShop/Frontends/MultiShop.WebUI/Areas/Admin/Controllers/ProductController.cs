@@ -39,6 +39,29 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
 
             return View();
         }
+
+
+        [Route("ProductListWithCategory")]
+
+        public async Task<IActionResult> ProductListWithCategory()
+        {
+            ViewBag.v1 = "Ana Səhifə";
+            ViewBag.v2 = "Məhsullar";
+            ViewBag.v3 = "Məhsul siyahısı";
+            ViewBag.v4 = "Məhsul Əməliyyatları";
+
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.GetAsync("http://localhost:7030/api/Products/ProductListWithCategory");
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<List<ResultProductWithCategoryDto>>(jsonData);
+                return View(values);
+            }
+
+            return View();
+        }
+
         [Route("CreateProduct")]
         [HttpGet]
         public async Task<IActionResult> CreateProduct()
