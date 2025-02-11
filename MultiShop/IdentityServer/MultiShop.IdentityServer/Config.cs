@@ -4,14 +4,14 @@ using Duende.IdentityServer.Models;
 namespace MultiShop.IdentityServer;
 
 public static class Config
-{
-    // İcazələr (oxuma, yazma, full)
+{// İcazələr (oxuma, yazma, full)
     public static IEnumerable<ApiResource> ApiResources => new ApiResource[]
     {
         new ApiResource("ResourceCatalog") {Scopes={"CatalogFullPermission","CatalogReadPermission"}},
         new ApiResource("ResourceDiscount") {Scopes={"DiscountFullPermission"}},
         new ApiResource("ResourceOrder") {Scopes={"OrderFullPermission"}},
         new ApiResource("ResourceCargo") {Scopes={"CargoFullPermission"}},
+        new ApiResource("ResourceComment") {Scopes={"CommentFullPermission"}},
         new ApiResource("ResourceBasket") {Scopes={"BasketFullPermission"}},
         new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
     };
@@ -30,7 +30,11 @@ public static class Config
         new ApiScope("DiscountFullPermission","Full authority for discount operations"),
         new ApiScope("OrderFullPermission","Full authority for order operations"),
         new ApiScope("CargoFullPermission","Full authority for cargo operations"),
+        new ApiScope("CommentFullPermission","Full authority for comment operations"),
         new ApiScope("BasketFullPermission","Full authority for basket operations"),
+        new ApiScope("PaymentFullPermission","Full authority for payment operations"),
+        new ApiScope("ImagesFullPermission","Full authority for images operations"),
+        new ApiScope("OcelotFullPermission","Full authority for ocelot operations"),
         new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
     };
 
@@ -43,7 +47,8 @@ public static class Config
             ClientName = "Multi Shop Visitor User",
             AllowedGrantTypes = GrantTypes.ClientCredentials,
             ClientSecrets = { new Secret("multishopsecret".Sha256())},
-            AllowedScopes = { "DiscountFullPermission"}
+            AllowedScopes = { "DiscountFullPermission", "CatalogReadPermission", "CatalogFullPermission" }
+
         },
 
         // Manager
@@ -51,24 +56,25 @@ public static class Config
         {
             ClientId = "MultiShopManagerId",
             ClientName = "Multi Shop Manager User",
-            AllowedGrantTypes = GrantTypes.ClientCredentials,
+            AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
             ClientSecrets = { new Secret("multishopsecret".Sha256())},
-            AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission" }
+            AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission", "BasketFullPermission" }
         },
 
         // Admin
         new Client
         {
-            ClientId = "MultiShopAdminId",
+            ClientId = "MultiShopAdminId",  
             ClientName = "Multi Shop Admin User",
             AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
             ClientSecrets = { new Secret("multishopsecret".Sha256())},
             AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission", "OrderFullPermission",
-                "DiscountFullPermission","CargoFullPermission",
+                "DiscountFullPermission", "CargoFullPermission", "BasketFullPermission",
                 IdentityServerConstants.LocalApi.ScopeName,
                 IdentityServerConstants.StandardScopes.Email,
                 IdentityServerConstants.StandardScopes.OpenId,
-                IdentityServerConstants.StandardScopes.Profile },
+                IdentityServerConstants.StandardScopes.Profile
+            },
 
             AccessTokenLifetime = 600
         }

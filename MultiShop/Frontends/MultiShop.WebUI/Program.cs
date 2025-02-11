@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
+using MultiShop.WebUI.Services;
 
 namespace MultiShop.WebUI
 {
@@ -7,6 +9,21 @@ namespace MultiShop.WebUI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddCookie(JwtBearerDefaults.AuthenticationScheme, opt =>
+            {
+                opt.LoginPath = "/Login/Index/";  //giris
+                opt.LogoutPath = "/Login/LogOut/"; //cixis
+                opt.AccessDeniedPath = "/Pages/AccessDanied/"; //yetkisiz
+                opt.Cookie.HttpOnly = true; //https olmadan
+                opt.Cookie.SameSite = SameSiteMode.Strict;
+                opt.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest;
+                opt.Cookie.Name = "MultiShopJwt"; //cookie ismi 
+            });
+            builder.Services.AddHttpContextAccessor();
+
+            builder.Services.AddScoped<ILoginService, LoginService>();
+
             builder.Services.AddHttpClient();
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -25,12 +42,12 @@ namespace MultiShop.WebUI
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Default}/{action=Index}/{id?}");
 
             app.UseEndpoints(endpoints =>
             {

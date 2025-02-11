@@ -1,0 +1,21 @@
+Identity    -- 5001
+MultiShopUI -- 7000
+Discount    -- 7010
+Catalog     -- 7020
+Order       -- 7030
+Basket      -- 7040
+Cargo       -- 7050
+Comment     -- 7060
+
+-----------------------
+
+Users
+
+Ali_S
+Ali.123456*
+
+Ayse_h
+Ayse.123456*
+
+Hemid_s
+Hemid.123456*

@@ -3,11 +3,11 @@
     "Name": "Yeni Profil",
     "Projects": [
       {
-        "Path": "Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj",
+        "Path": "IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj",
         "Action": "Start"
       },
       {
-        "Path": "Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj",
+        "Path": "Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj",
         "Action": "Start"
       }
     ]
