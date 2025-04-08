@@ -9,7 +9,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
 {
 
     [Area("Admin")]
-    [AllowAnonymous]
+    //[AllowAnonymous]
     [Route("Admin/Category")]
     public class CategoryController : Controller
     {

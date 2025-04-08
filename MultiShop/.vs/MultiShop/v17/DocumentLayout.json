@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\frontends\\multishop.webui\\services\\concrete\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\services\\concrete\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\frontends\\multishop.webui\\services\\interfaces\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E4BF50-BB37-449F-A203-1BE7EC2AD14A}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\services\\interfaces\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE74BB15-8776-450E-837C-8B5E645589CF}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\identityserver\\multishop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE74BB15-8776-450E-837C-8B5E645589CF}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|solutionrelative:identityserver\\multishop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38E032A5-0CFE-4970-B9A6-3F3D70DB9B04}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\samun\\desktop\\multi.e_commerce\\multishop\\services\\catalog\\multishop.catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E032A5-0CFE-4970-B9A6-3F3D70DB9B04}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IDentityService.cs",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Services\\Concrete\\IDentityService.cs",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Services\\Concrete\\IDentityService.cs",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Services\\Concrete\\IDentityService.cs",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Services\\Concrete\\IDentityService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwBkAAABMAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Program.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Program.cs",
+              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T10:56:16.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IIdentityService.cs",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Services\\Interfaces\\IIdentityService.cs",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Services\\Interfaces\\IIdentityService.cs",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\Frontends\\MultiShop.WebUI\\Services\\Interfaces\\IIdentityService.cs",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Services\\Interfaces\\IIdentityService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T10:55:00.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Config.cs",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\Config.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\MultiShop.IdentityServer\\Config.cs",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\Multi.E_Commerce\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\Config.cs",
-              "RelativeToolTip": "IdentityServer\\MultiShop.IdentityServer\\Config.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAwDEAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T13:01:02.46Z",
+              "WhenOpened": "2025-02-13T13:55:08.896Z",
               "EditorCaption": ""
             }
           ]

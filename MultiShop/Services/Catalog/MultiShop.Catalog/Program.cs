@@ -18,13 +18,87 @@ using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
-{
-    opt.Authority = builder.Configuration["IdentityServerUrl"];
-    opt.Audience = "ResourceCatalog";
-    opt.RequireHttpsMetadata = false;
-});
+// JWT Authentication konfiqurasiyasý
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(opt =>
+    {
+        try
+        {
+            // JWT Authentication konfiqurasiyasý
+            opt.Authority = builder.Configuration["IdentityServerUrl"];
+            opt.Audience = "ResourceCatalog";
+            opt.RequireHttpsMetadata = false;
 
+            // X?talarýn izl?niþi üçün ?lav? etdiyimiz blok
+            opt.Events = new JwtBearerEvents
+            {
+                OnChallenge = async context =>
+                {
+                    try
+                    {
+                        // ?g?r ErrorDescription boþdursa, baþqa m?lumatlarý da yoxla
+                        if (string.IsNullOrEmpty(context.ErrorDescription))
+                        {
+                            Console.WriteLine("OnChallenge: Unknown error occurred.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("OnChallenge: " + context.ErrorDescription);
+                        }
+
+                        // Burada daha çox m?lumat da ?lav? ed? bil?rs?n
+                        Console.WriteLine("OnChallenge: Error: " + context.Error);
+
+                        // Geri qaytarma prosesini düzgün þ?kild? idar? edirik
+                        await Task.CompletedTask;
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("OnChallenge error: " + ex.Message);
+                        Console.WriteLine("StackTrace: " + ex.StackTrace);
+                    }
+                },
+                OnAuthenticationFailed = async context =>
+                {
+                    try
+                    {
+                        // X?tanýn detallarýný daha çox görm?k üçün
+                        Console.WriteLine("Auth failed: " + context.Exception.Message);
+                        Console.WriteLine("StackTrace: " + context.Exception.StackTrace);
+
+                        await Task.CompletedTask;
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("OnAuthenticationFailed error: " + ex.Message);
+                        Console.WriteLine("StackTrace: " + ex.StackTrace);
+                    }
+                },
+                OnMessageReceived = async context =>
+                {
+                    try
+                    {
+                        // Token alýndýðýnda ?lav? m?lumat
+                        Console.WriteLine("Token alýndý: " + context.Token);
+
+                        await Task.CompletedTask;
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("OnMessageReceived error: " + ex.Message);
+                        Console.WriteLine("StackTrace: " + ex.StackTrace);
+                    }
+                }
+            };
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("JWT Bearer configuration error: " + ex.Message);
+            Console.WriteLine("StackTrace: " + ex.StackTrace);
+        }
+    });
+
+// Servisl?rin DI (Dependency Injection) qeydiyyatý
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductDetailService, ProductDetailService>();
@@ -37,21 +111,23 @@ builder.Services.AddScoped<IBrandService, BrandService>();
 builder.Services.AddScoped<IAboutService, AboutService>();
 builder.Services.AddScoped<IContactService, ContactService>();
 
+// AutoMapper konfiqurasiyasý
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
+// DatabaseSettings konfiqurasiyasý
 builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("DatabaseSetting"));
 builder.Services.AddScoped<IDatabaseSettings>(sp =>
 {
     return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
 });
 
+// Controller-l?rin ?lav? olunmasý
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Swagger konfiqurasiyasý
 builder.Services.AddEndpointsApiExplorer();
-#region Add SwaggerGen
 builder.Services.AddSwaggerGen(c =>
 {
-    // Swagger UI üçün Bearer token ?lav? et
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description = "Please enter JWT Bearer token",
@@ -76,18 +152,16 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-#endregion
-
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Development mühitind? Swagger-i aktivl?þdir
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// Middleware-l?ri ?lav? et
 app.UseAuthentication();
 app.UseAuthorization();
 

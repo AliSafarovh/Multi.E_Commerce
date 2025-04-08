@@ -9,7 +9,7 @@ using System.Text;
 namespace MultiShop.WebUI.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [AllowAnonymous]
+    //[AllowAnonymous]
     [Route("Admin/Product")]
     public class ProductController : Controller
     {

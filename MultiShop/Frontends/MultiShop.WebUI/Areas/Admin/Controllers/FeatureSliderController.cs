@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MultiShop.WebUI.Areas.Admin.Controllers
 {
-    [AllowAnonymous]
+    //[AllowAnonymous]
     [Area("Admin")]
     [Route("Admin/FeatureSlider")]
 

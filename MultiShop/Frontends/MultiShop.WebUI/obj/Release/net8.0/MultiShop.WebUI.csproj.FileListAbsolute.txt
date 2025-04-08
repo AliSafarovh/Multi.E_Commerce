@@ -259,3 +259,5 @@ C:\Users\samun\Desktop\Multi.E_Commerce\MultiShop\Frontends\MultiShop.WebUI\bin\
 C:\Users\samun\Desktop\Multi.E_Commerce\MultiShop\Frontends\MultiShop.WebUI\bin\Release\net8.0\MultiShop.Catalog.dll
 C:\Users\samun\Desktop\Multi.E_Commerce\MultiShop\Frontends\MultiShop.WebUI\bin\Release\net8.0\MultiShop.Catalog.pdb
 C:\Users\samun\Desktop\Multi.E_Commerce\MultiShop\Frontends\MultiShop.WebUI\obj\Release\net8.0\MultiShop.WebUI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\samun\Desktop\Multi.E_Commerce\MultiShop\Frontends\MultiShop.WebUI\bin\Release\net8.0\IdentityServer4.Storage.dll
+C:\Users\samun\Desktop\Multi.E_Commerce\MultiShop\Frontends\MultiShop.WebUI\bin\Release\net8.0\IdentityModel.dll
